@@ -1,0 +1,41 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/checkout-style.css">
+  <title>Checkout - Online Billing System</title>
+</head>
+<body>
+  <header class="bg-dark text-light text-center py-3">
+    <h1>Checkout</h1>
+  </header>
+  
+  <main class="container mt-4">
+    <section id="checkout-details" class="mb-4">
+      <h2 class="mb-3">Order Summary</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="font-weight-bold">Date: <span id="date"></span></p>
+          <p class="font-weight-bold">Invoice Number: <span id="invoice-number"></span></p>
+        </div>
+        <div class="col-md-6 text-md-right">
+          <p class="font-weight-bold">Total Price: $<span id="total-price"></span></p>
+        </div>
+      </div>
+
+      <h3 class="mt-4">Purchased Items</h3>
+      <ul id="order-items" class="list-group"></ul>
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/checkout.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Online Billing System</title>
+</head>
+
+<body>
+  <header class="bg-dark text-light text-center py-3">
+    <h1>Online Billing System</h1>
+  </header>
+  
+  <main class="container mt-4">
+    <section id="dashboard" class="mb-4">
+      <h2 class="mb-3">Dashboard</h2>
+      <!-- Add dashboard content here -->
+    </section>
+
+    <section id="products" class="mb-4">
+      <h2 class="mb-3">Products</h2>
+      <div id="product-list" class="row"></div>
+    </section>
+
+    <section id="cart">
+      <h2 class="mb-3">Shopping Cart</h2>
+      <ul id="cart-items" class="list-group"></ul>
+      <p class="font-weight-bold mt-2">Total: $<span id="total">0.00</span></p>
+      <button class="btn btn-success" onclick="checkout()">Checkout</button>
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
