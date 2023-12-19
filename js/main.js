@@ -10,9 +10,9 @@ const products = [
       },
       {
         id: 2,
-        name: 'Fashionable Clothes',
+        name: 'Mobile Phone Latest',
         price: 39.99,
-        description: 'A trendy set of fashionable clothes for any occasion.',
+        description: 'A trendy set of Mobile phone.',
         image: 'https://th.bing.com/th/id/OIP.U_N3-s6eBJcdjQLKYou1mAHaD4?w=328&h=180&c=7&r=0&o=5&pid=1.7',
         details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum nisl in elit tincidunt aliquet. Nulla facilisi. Integer non lectus nec libero vulputate fermentum vel eu justo.'
       },
